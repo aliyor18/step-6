@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  margin: 0px;
+  background-color: #4D515D;
+}
+.container{
+  width: 1205px;
+  padding: 0px 30px;
+  margin: 0px auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.box{
+  width: 1000px;
+  height: 600px;
+  margin: 0px auto;
+  margin-top: 70px;
+  display: flex;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.box-inner{
+  width: 600px;
+  height: 600px;
+  padding: 80px 40px 40px 40px;
+}
+.box-title{
+  color: rgba(0, 0, 0, 0.831);
+  margin: 0px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.box-desc{
+  margin: 0px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(88, 88, 88, 0.802);
+  margin-bottom: 60px;
+}
+.box-lists{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.box-list{
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 2px solid rgba(207, 207, 207, 0.281);
+}
+.link{
+  padding: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.link:hover{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px 6px  rgba(127, 127, 127, 0.5),
+              -6px -6px 6px  rgba(127, 127, 127,0.5),
+              -6px 6px 6px rgba(127, 127, 127,0.5),
+              6px -6px 6px rgba(127, 127, 127,0.5);
+  border:none;
+}
+.google{
+  width: 25px;
+  height: 25px;
+}
+.link-item{
+  color: rgba(107, 107, 107, 0.75);
+  margin-left: 150px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+}
+.line-bottom{
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+.box-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-desc{
+  margin: 0px;
+  color: rgb(44, 44, 44);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.bottom-link{
+  text-decoration: none;
+  color: rgba(107, 107, 107, 0.75);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+}
+.bottom-link:hover{
+  color: #000000;
+}
+.box-img{
+  width: 400px;
+  height: 600px;
+}
+.img{
+  width: 400px;
+  height: 600px;
+}
